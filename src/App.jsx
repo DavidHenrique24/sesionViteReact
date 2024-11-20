@@ -32,7 +32,7 @@ function App() {
     <div>
       <h1>Lista de Viajes</h1>
       <button onClick={ordenarViajes}>
-        {/{ordenAscendente ? 'Ordenar por Precio Descendente' : 'Ordenar por Precio Ascendente'} /* Este es un if pero hecho de esta manera */ }
+          {ordenAscendente ? 'Ordenar por Precio Descendente' : 'Ordenar por Precio Ascendente'}
       </button>
       <table border="1">
         <thead>
